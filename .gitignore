@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local IDE settings
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets: environment files hold values; the template documents variable names.
+.env
+.env.*
+!.env.example
+
+# A local rerun of the eval; the recorded run is results/main.jsonl.
+evals/prompt_comparison_error_bars/results/rerun.jsonl
+
+# Working notes and drafts, kept on the maintainer's machine.
+tasks/
